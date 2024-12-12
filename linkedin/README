@@ -1,0 +1,36 @@
+# 💼 Clone de LinkedIn
+
+Un clone de la page d'accueil de LinkedIn, conçu avec **HTML**, **CSS**, **JavaScript** et une base de données à venir pour gérer dynamiquement les utilisateurs et leurs informations.
+
+## 📱 Fonctionnalités
+
+- 💬 Page de connexion et d'inscription.
+- 🖥️ Design responsive pour bureau, tablette et mobile.
+- 🔗 Interface de réseau social avec profils utilisateurs, posts et interactions.
+- 🗃️ Base de données à venir pour gérer les utilisateurs et leurs données.
+
+🗂 Structure du projet
+
+LinkedIn-Clone/
+├── index.html        # Page d'accueil
+├── style.css         # Fichier CSS pour la mise en page
+├── script.js         # Fichier JavaScript pour les interactions
+├── assets/           # Dossier contenant les images et ressources
+└── README.md         # Ce fichier
+
+🛠️ Technologies
+HTML : Structure du site.
+CSS : Mise en page et design responsive.
+JavaScript : Interactions et gestion de l'interface.
+Base de données (à venir) : Intégration pour gérer les utilisateurs et leurs informations.
+
+✨ À venir
+🗂 Intégration d'une base de données pour gérer dynamiquement les utilisateurs et leurs posts.
+📈 Ajout d'une fonctionnalité de messagerie privée.
+💬 Amélioration des interactions entre utilisateurs (commentaires, likes, etc.).
+🔐 Fonctionnalité de connexion sécurisée.
+
+👨‍💻 Auteur
+
+Bounabat Anas - Développeur
+GitHub : anasbounabat

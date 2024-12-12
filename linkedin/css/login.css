@@ -1,0 +1,164 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+}
+
+/* Conteneur du formulaire */
+form {
+    padding: 20px;
+    padding-top: 5px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 290px;
+    margin-left: 530px;
+    height: 560px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    display: flex; 
+    align-items: center;
+    color: #0077b5;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+i.fa-linkedin {
+    font-size: 36px;
+    color: #0091ff;
+    margin-right: 10px; 
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 8px 0 10px 0
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0077b5; 
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #00a6ff; 
+}
+h2{
+    color: #0077b5;
+
+}
+
+h1{
+   justify-content: start;
+}
+h4{
+    margin-top: 5px;
+    justify-content: start;
+    font-size: 14px;
+    font-weight: normal;
+}
+h5 {
+    margin-top: 0px;
+    color: #0077b5;
+    font-size: 16px;
+    font-weight: normal; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    padding: 5px 10px; 
+    border-radius: 25px;
+    width: 160px;
+    margin-top:5px ;
+}
+
+h5:hover {
+    background-color: #0076b563; 
+    color: #0077b5;
+    cursor: pointer;
+    width: 160px;
+}
+
+
+h3{
+    font-size: 13px;
+    font-weight: normal;
+}
+p{
+    font-size: 12px;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box1 hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 0 10px; 
+}
+
+.box1 p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.container2 {
+    margin: 5px;
+}
+
+.container2 p {
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+button {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #b2b2b2;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%     ;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+span {
+    display: block;
+}
+.highlight {
+    color: #0077b5; 
+    font-weight: bold; 
+}
+h3{
+    margin-left: 570px;
+    margin-top: 20px;
+}

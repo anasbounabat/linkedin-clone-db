@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <h2>Linked<i class="fa-brands fa-linkedin" style="color: #0091ff;"></i></h2>
+
+    <div>
+        <form action="register.php" method="POST">
+            <h1>S'inscrire</h1>
+            <h4>Rejoignez votre réseau professionnel dès aujourd'hui.</h4>
+
+            <input type="text" id="name" name="name" placeholder="Nom complet" required>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+
+            <input type="submit" value="S'inscrire">
+
+            <div class="box1">
+                <hr>
+                <p>ou</p>
+                <hr>
+            </div>
+
+            <div class="container2">
+                <button> <i class="fa-brands fa-google"></i> S'inscrire avec Google</button>
+                <span> 
+                    <button> <i class="fa-brands fa-apple"></i> S'inscrire avec Apple</button>
+                </span>
+            </div>
+        </form>
+        <h3>Déjà un compte ?<a href="login.php" class="highlight"> S'identifier</a></h3>
+    </div>
+</body>
+</html>
